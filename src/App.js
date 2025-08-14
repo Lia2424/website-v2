@@ -16,7 +16,7 @@ import Structure from "./sections/Structure/Structure";
 import LittleWics from "./sections/LittleWics/LittleWics"
 import PastEvents from "./sections/PastEvents/PastEvents";
 import Footer from "./sections/Footer/Footer";
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga'; 
 
 
 
