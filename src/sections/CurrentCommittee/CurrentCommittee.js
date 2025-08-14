@@ -28,6 +28,15 @@ import shriya from "../../res/images/w25execs/shriya.jpg";
 import yiyan from "../../res/images/w25execs/yiyan.jpeg";
 import yuyeon from "../../res/images/w25execs/yuyeon.jpg";
 
+import helena from "../../res/images/s25execs/helena.png";
+import jemima from "../../res/images/s25execs/jemima.png";
+import Iris from "../../res/images/s25execs/iris.png";
+import lia from "../../res/images/s25execs/lia.png";
+import Ruby from "../../res/images/s25execs/ruby.png";
+import layne from "../../res/images/s25execs/layne.png";
+import karen from "../../res/images/s25execs/karen.png";
+import shreeya from "../../res/images/s25execs/shreeya.png";
+import vijeta from "../../res/images/s25execs/vijeta.png";
 
 
 import CurrentCommitteeCard from "../../components/CurrentCommitteeCard/CurrentCommitteeCard";
@@ -97,69 +106,48 @@ class CurrentCommittee extends Component {
     // Change current executives' images, names, and positions here
     const executives = {
       exec1: {
-        pic: claudia,
-        name: "Claudia Mcomb",
+        pic: helena,
+        name: "Helena Xu",
         position: "Co-chair",
       },
       exec2: {
-        pic: molly,
-        name: "Molly Xu",
+        pic: jemima,
+        name: "Jemima Vijayasenan",
         position: "Co-chair",
       },
       exec3: {
-        pic: madeline,
-        name: "Madeline Pinto",
+        pic: iris,
+        name: "Iris Mo",
         position: "Secretary",
       },
       exec4: {
-        pic: fatema,
-        name: "Fatema Husain",
+        pic: lia,
+        name: "Lia Moradpour",
         position: "Systems Administrator",
       },
       exec5: {
-        pic: neelab,
-        name: "Neelab Karimi",
-        position: "Systems Administrator",
+        pic: layne,
+        name: "Layne Lim Ah Tock",
+        position: "Director of Outreach and Internal Affairs",
       },
       exec6: {
-        pic: amanda,
-        name: "Amanda Bishop",
-        position: "Director of Outreach",
-      },
-      exec11: {
-        pic: shriya,
-        name: "Shriya Kaistha",
-        position: "Director of Internal Affairs",
-      },
-      exec7: {
-        pic: yuyeon,
-        name: "Yuyeon Kim",
-        position: "Director of Finance",
-      },
-      exec8: {
-        pic: yiyan,
-        name: "Yiyan Huang",
-        position: "Director of Publicity",
-      },
-      exec12: {
-        pic: anne,
-        name: "Anne Sun",
-        position: "Director of Publicity",
-      },
-      exec9: {
-        pic: iris,
-        name: "Iris Mo",
-        position: "Operations Manager",
-      },
-      exec10: {
-        pic: samantha,
-        name: "Samantha Mac ",
-        position: "First Year Representative",
-      },
-      
-      exec13: {
         pic: ruby,
         name: "Ruby Zhou",
+        position: "Director of Publicity",
+      },
+      exec7: {
+        pic: karen,
+        name: "Karen Wang",
+        position: "Director of Publicity",
+      },
+      exec8: {
+        pic: shreeya,
+        name: "Shreeya Santha",
+        position: "Director of Finance",
+      },
+      exec9: {
+        pic: vijeta,
+        name: "Vijeta Lalwani",
         position: "First Year Representative",
       },
     };
